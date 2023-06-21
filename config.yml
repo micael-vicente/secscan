@@ -1,0 +1,19 @@
+# Default config file
+
+scan:
+  excludedCheckers: []
+  sensitiveTerms:
+    - ACME
+    - Tom & Jerry
+    - $1.15b
+  xSSTargetExtensions:
+    - .js
+    - .html
+
+report:
+  outputPath: .
+  format: text
+
+sensors:
+  excludedFileExtensions:
+    - .yml
